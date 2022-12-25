@@ -1,4 +1,3 @@
-
 body {
   font-family: "Montserrat";
 }
@@ -8,14 +7,13 @@ header {
   height: 600px;
   overflow: hidden;
 }
-#header_section {
+#sekcia_headera {
   position: relative;
   z-index: 1;
-  background: url(img/druplicon.svg) no-repeat left top;
   background-color: rgba(0, 0, 0, 0.8);
   padding-bottom: 60px;
 }
-#bg_video {
+#vidosikk {
   z-index: -3;
   position: absolute;
   top: 0;
@@ -27,41 +25,41 @@ header {
   min-height: 100%;
   filter: blur(3px);
 }
-#header_logo {
+#logotip_headera {
   margin-top: -23px;
   margin-left: -15px;
 }
-#header_links {
+#headers_ssilki {
   position: relative;
   z-index: 4;
   height: 50px;
   padding-top: 30px;
 }
-#admin_block {
+#lordblock {
   position: absolute;
   z-index: 5;
   background-color: #f04d35;
   display: none;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
-#admin_inside {
+#lordinside {
   margin: 6px 0;
 }
-.admin_txt {
+.lordtxt {
   padding: 3px 0;
 }
-.admin_clr {
+.lordclr {
   padding: 0 15px;
   color: #fff;
 }
-.admin_clr:hover {
+.lordclr:hover {
   text-decoration: none;
   color: #fff;
 }
-#razr_block {
+#blockrazrab {
   padding: 70px 0 60px;
 }
-.tarifs_link {
+.ssilktarifov {
   height: 360px;
 }
 #razr {
@@ -72,13 +70,13 @@ header {
   color: #fff;
   height: 33.33%;
 }
-#uslugi {
+#usl_and_podderzhka {
   font-size: 18px;
   line-height: 1.6;
   color: #fff;
   height: 33.33%;
 }
-#btn_frst {
+#block_knopki1 {
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
@@ -98,7 +96,7 @@ header {
 .gs_block {
   border-left: 3px solid #f14d34;
 }
-#trophy {
+#kubok {
   position: absolute;
   left: 65px;
 }
@@ -118,65 +116,65 @@ header {
   line-height: 1.25;
   color: #fff;
 }
-#wht {
+#spsbnsti {
   position: relative;
   z-index: 1;
   background-color: #fff;
   height: 1500px;
 }
-#wht_block {
+#spsbnsti_block {
   padding: 150px 0;
 }
-#wht_txt_up {
+#spsbnsti_txt_up {
   font-weight: bold;
   font-size: 42px;
   color: #050c33;
   line-height: 1;
 }
-#wht_txt_down {
+#spsbnsti_txt_down {
   font-weight: 500;
   font-size: 16px;
   color: #4f5a73;
   line-height: 1.25;
 }
-.wht_square {
+.poshad_spsbn {
   width: 25%;
   margin-bottom: 30px;
 }
-.wht_imgs {
+.spsbnsti_imgs {
   margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   color: #4f5a73;
   line-height: 1.42;
 }
-.wht_img_txt {
+.text_picture_spsbn {
   padding: 0;
 }
-.wht_square {
+.poshad_spsbn {
   padding: 0;
 }
 
-.wht_img_size {
+.spsbnsti_picture_size {
   width: auto;
   margin: 0 0 40px 0;
 }
-.wht_img_bg {
+.spsbnsti_img_bg {
   position: absolute;
   margin-left: -54px;
   margin-top: 20px;
 }
-.txt_top {
+.NizhnieePokrasn {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   color: #fff;
 }
-#pointless_wht {
+#pointless_spsbnsti {
   height: 500px;
   background-color: #fff;
 }
-#blk_cross {
+#continion_under {
   position: relative;
   z-index: 1;
   height: 980px;
@@ -187,12 +185,12 @@ header {
     ),
     #040613;
 }
-#blk_back {
+#continion_undr {
   position: relative;
   z-index: 2;
   background: url(img/drupal-logo-2.svg) no-repeat right bottom;
 }
-#blk_txt {
+#undgrnd_text {
   color: #050c33;
   text-align: center;
   font-weight: bold;
@@ -203,7 +201,7 @@ header {
   position: relative;
   z-index: 3;
 }
-.blk_img {
+.undgrnd_picture {
   background-color: #fff;
   height: 300px;
   width: 250px;
@@ -212,30 +210,30 @@ header {
   border-radius: 5px;
   box-shadow: 20px 20px 40px rgba(5, 12, 51, 0.05);
 }
-#blk_cross {
+#continion_under {
   margin-top: -220px;
   position: relative;
   z-index: 1;
 }
-.blk_little_block {
+.contin_undr_small {
   position: relative;
   z-index: 1;
   color: #fff;
   padding-top: 30%;
   padding-left: 50%;
 }
-#laptop_img {
+#pic_lptp {
   margin-left: -15px;
   margin-top: -380px;
 }
-.blk_num {
+.nmbr_under_blks {
   font-weight: bold;
   font-size: 12px;
   color: #828a9b;
   margin-bottom: 15px;
 }
 
-.blk_first_words {
+.txt_under_blks1 {
   font-weight: bold;
   font-size: 18px;
   color: #050c33;
@@ -248,20 +246,20 @@ header {
   color: #4e5a73;
   line-height: 1.37;
 }
-.blk_corner_img {
+.picture_under_blks {
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 3;
 }
-.blk_ecspertiza {
+.contin_undr_zglvk {
   font-weight: bold;
   font-size: 42px;
   margin-bottom: 65px;
   line-height: 1.1;
   margin-left: -35px;
 }
-.blk_ecsp_txt {
+.contin_undr_text {
   border-left: 3px solid #f14d34;
   padding-left: 15px;
   padding-top: 5px;
@@ -278,16 +276,16 @@ header {
   height: 500px;
   width: 100%;
 }
-.blk_ecsp_txt a {
+.contin_undr_text a {
   color: #f14d34;
 }
-.tarif_col {
+.bigzglvkov_clmn_mx {
   padding: 60px 20px;
   background-color: #fff;
   border: 3px solid #e6e6e6;
   border-radius: 5px;
 }
-.priced_type {
+.red_zglvk {
   margin-bottom: 50px;
   padding-bottom: 30px;
   border-bottom: 3px solid #e6e6e6;
@@ -296,7 +294,7 @@ header {
   color: #f14d32;
   line-height: 1.3;
 }
-.tarif_goals {
+.red_zglvk_opisanie {
   margin-bottom: 18px;
   line-height: 1.2;
   font-size: 16px;
@@ -304,66 +302,66 @@ header {
   color: #4e5972;
   font-weight: 500;
 }
-#tarifs_name {
+#zglvk_of_t {
   text-align: center;
   color: #000;
   font-weight: bold;
   font-size: 42px;
 }
-#tarifs_bg {
+#section_of_tarifs {
   height: 900px;
   background: url(img/D-background-opacity.svg) no-repeat right top;
 }
-#tarifs_blocks {
+#sction_of_trfs_blks {
   padding-top: 160px;
 }
-.tarifs_btn {
+.tap_uslugs {
   color: #f14d34;
   padding: 20px 10px;
   background: #fff;
   border: 1px solid #f14d34;
   border-radius: 5px;
 }
-#not_agree_tarif {
+#else_help1 {
   text-align: center;
   line-height: 1.3;
   font-weight: 500;
   color: #828a9b;
 }
-#not_agree_tarif_down {
+#else_personal_uslg {
   font-size: 12px;
   width: 259px;
 }
-#not_agree_tarif_down a {
+#else_personal_uslg a {
   text-decoration: underline;
   color: #050c33;
 }
-#not_agree_tarif_phone {
+#else_help {
   display: none;
 }
-#skill_time {
+#razrabchiki_zglvk {
   margin-top: 190px;
 }
-#devs_time_skills {
+#razrabchiki_zglvk_this {
   font-weight: bold;
   font-size: 42px;
   color: #050c33;
   line-height: 1.1;
   padding-bottom: 60px;
 }
-.needed_time {
+.time_of_wrk {
   font-size: 32px;
   color: #050c33;
   font-weight: bold;
 }
-.needed_time_terms {
+.time_of_wrk_apperance {
   font-weight: 500;
   font-size: 16px;
   color: #4f5a73;
   line-height: 1.4;
 }
 
-.team_title {
+.party_zglvk {
   margin-top: 60px;
   margin-bottom: 20px;
   font-size: 24px;
@@ -371,19 +369,19 @@ header {
   text-align: center;
 }
 
-.member {
+.pepl_clmns {
   margin-bottom: 20px;
 }
 
-.member_name {
+.name_in_live {
   font-weight: bold;
 }
 
-.member_info {
+.name_in_live_who {
   color: #505570;
 }
 
-.btn_team {
+.show_all_team {
   width: 160px;
   height: 30px;
   font-size: 12px;
@@ -647,7 +645,7 @@ header {
   display: none;
 }
 
-.FAQ_title {
+.zglvk_of_faq_this {
   margin-top: 110px;
   margin-bottom: 50px;
   font-size: 24px;
@@ -655,7 +653,7 @@ header {
   text-align: center;
 }
 
-.FAQ_answer {
+.vprs_to_faq_txt {
   border-color: #f14d34;
   border: 3px solid #f14d34;
   border-top: none;
@@ -665,19 +663,19 @@ header {
   line-height: 1.37;
 }
 
-.FAQ_answer ul {
+.vprs_to_faq_txt ul {
   padding-left: 17px;
 }
 
-.FAQ_accordion .active {
+.faq_asks .active {
   color: #f14d34;
   border: 3px solid #f14d34;
   border-bottom: none;
   top: 10px;
 }
 
-.FAQ_qestion,
-.FAQ_answer {
+.vprs_to_faq,
+.vprs_to_faq_txt {
   border-radius: 0;
   box-shadow: none;
   position: relative;
@@ -687,11 +685,11 @@ header {
   font-size: 18px;
 }
 
-.FAQ_qestion {
+.vprs_to_faq {
   font-weight: bold;
 }
 
-.FAQ_qestion_number {
+.vprs_to_faq_num {
   position: absolute;
   font-weight: bold;
   font-size: 12px;
@@ -713,11 +711,11 @@ footer {
   background-size: cover, 165px, 140px;
 }
 
-.footer_top {
+.connect_thrgh_ftr {
   padding-top: 35px;
 }
 
-.footer_title {
+.zglvk_of_ftr {
   font-weight: bold;
   font-size: 24px;
   line-height: 1.215;
@@ -725,7 +723,7 @@ footer {
   text-align: center;
 }
 
-.footer_content {
+.why_connect {
   line-height: 1.55;
   font-size: 18px;
   color: rgba(256, 256, 256, 0.7);
@@ -733,38 +731,38 @@ footer {
   text-align: justify;
 }
 
-.footer_content_phone img,
-.footer_content_mail img {
+.connect_phone img,
+.connect_mail img {
   margin-right: 20px;
 }
 
-.footer_content_phone,
-.footer_content_mail a {
+.connect_phone,
+.connect_mail a {
   color: #fff;
   font-weight: bold;
   font-size: 18px;
 }
 
-.footer_content_phone {
+.connect_phone {
   margin-bottom: 10px;
 }
 
-.footer_content_mail {
+.connect_mail {
   margin-bottom: 30px;
 }
 
-.footer_content_mail a {
+.connect_mail a {
   text-decoration: underline;
 }
 
-.footer_form {
+.main_of_ftr {
   color: #fff;
   padding-bottom: 50px;
 }
 
-.footer_form_input,
-.footer_form_input_comment,
-.footer_form_button {
+.main_of_ftr_line,
+.hight_field,
+.buttn_under_form {
   border-radius: 5px;
   margin-bottom: 7px;
   width: 450px;
@@ -777,62 +775,62 @@ footer {
   border: 1px solid rgba(256, 256, 256, 0.3);
 }
 
-.footer_form_input_comment {
+.hight_field {
   height: 130px;
 }
 
-.footer_form_label {
+.lik_label {
   height: 40px;
   font-size: 14px;
   font-weight: normal;
 }
 
-.footer_form_label a {
+.lik_label a {
   color: #f14d34;
 }
 
-.footer_form_label img {
+.lik_label img {
   height: 7px;
   vertical-align: top;
 }
 
-.footer_form_chekbox {
+.chkbx_in_label {
   background: transparent;
   border: 1px solid rgba(256, 256, 256, 0.3);
 }
 
-.footer_form_button {
+.buttn_under_form {
   margin-top: 7px;
   padding: 0px 0px;
   background-color: #f14d34;
 }
 
-.footer_bottom {
+.undrgrnd_of_footer {
   border-top: 1px solid rgba(256, 256, 256, 0.3);
 }
 
-.footer_bottom_content {
+.undrgrnd_of_footer_pictures {
   padding-right: 50px;
   font-size: 18px;
   padding-top: 56px;
   padding-bottom: 36px;
 }
 
-.footer_bottom_content img {
+.undrgrnd_of_footer_pictures img {
   margin-right: 15px;
   margin-bottom: 15px;
 }
 
 @media screen and (max-width: 785px) {
-  #header_links {
+  #headers_ssilki {
     display: none;
   }
 
-  #bg_video {
+  #vidosikk {
     min-width: 180%;
     min-height: 180%;
   }
-  #header_section {
+  #sekcia_headera {
     padding: 0;
   }
   header {
@@ -846,17 +844,18 @@ footer {
     font-weight: bold;
   }
 
-  #uslugi {
+  #usl_and_podderzhka {
     font-size: 14px;
     text-align: center;
     margin: 0 auto;
   }
 
-  #btn_block {
+  #block_knopki {
     margin: 0 auto;
   }
 
-  .tarifs_link {
+	
+  .ssilktarifov {
     height: 320px;
     margin-bottom: 30px;
   }
@@ -882,41 +881,41 @@ footer {
     height: 100%;
   }
 
-  #trophy {
+  #kubok {
     position: absolute;
     left: 65px;
     top: -3px;
   }
 
-  #wht_txt_up {
+  #spsbnsti_txt_up {
     font-size: 24px;
     line-height: 1.1;
   }
 
-  #wht_txt_down {
+  #spsbnsti_txt_down {
     font-size: 16px;
     line-height: 1.43;
   }
 
-  .wht_imgs {
+  .spsbnsti_imgs {
     margin: 0;
     font-size: 14px;
     line-height: 1.43;
     padding: 0;
   }
-  .wht_square {
+  .poshad_spsbn {
     width: 50%;
   }
-  .wht_img_size {
+  .spsbnsti_picture_size {
     width: 81px;
     margin: 0 auto 40px;
   }
 
-  .wht_img_txt {
+  .text_picture_spsbn {
     padding-left: 8%;
   }
 
-  #blk_txt {
+  #undgrnd_text {
     text-align: center;
     font-size: 24px;
     line-height: 1.1;
@@ -924,32 +923,32 @@ footer {
     margin-bottom: 60px;
   }
 
-  .blk_img {
+  .undgrnd_picture {
     background-color: #fff;
     height: 220px;
     width: 410px;
     margin-bottom: 5px;
   }
 
-  .blk_ecspertiza {
+  .contin_undr_zglvk {
     font-size: 24px;
     margin-bottom: 20px;
     margin-left: 0;
     padding-top: 250px;
   }
 
-  .blk_little_block {
+  .contin_undr_small {
     padding-top: 0;
     padding-left: 0;
   }
 
-  #laptop_img {
+  #pic_lptp {
     height: 360px;
     width: 370px;
     margin-top: 0;
   }
 
-  .blk_ecsp_txt {
+  .contin_undr_text {
     min-height: 88px;
     height: 100%;
     width: 270px;
@@ -957,21 +956,21 @@ footer {
     margin-left: 20px;
   }
 
-  #tarifs_name {
+  #zglvk_of_t {
     margin-top: 100px;
   }
 
-  #tarifs_bg {
+  #section_of_tarifs {
     height: 2250px;
     background: url(img/D-background-opacity.svg) no-repeat right top;
     background-size: auto, auto;
   }
 
-  .tarif_col_big {
+  .bigzglvk_cllmns {
     margin-bottom: 10px;
   }
 
-  #not_agree_tarif_phone {
+  #else_help {
     display: block;
     text-align: center;
     line-height: 1.3;
@@ -979,44 +978,44 @@ footer {
     color: #828a9b;
   }
 
-  #not_agree_tarif {
+  #else_help1 {
     display: none;
   }
 
-  #devs_time_skills {
+  #razrabchiki_zglvk_this {
     font-size: 24px;
   }
 
-  .needed_time {
+  .time_of_wrk {
     text-align: center;
   }
 
-  .needed_time_terms {
+  .time_of_wrk_apperance {
     width: 60%;
     margin: 0 auto;
   }
 
-  .skill_img {
+  .pictr_on_times {
     height: 81px;
     width: 81px;
     margin: 0 auto;
   }
 
-  .skill_block {
+  .time_raz_block {
     margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 800px) {
-  .team_title {
+  .party_zglvk {
     font-size: 42px;
     margin-bottom: 40px;
   }
 
-  .member {
+  .pepl_clmns {
     margin-bottom: 20px;
   }
 
-  .btn_team {
+  .show_all_team {
     width: 270px;
     height: 60px;
     font-weight: bold;
@@ -1109,7 +1108,7 @@ footer {
     margin: 0px 5px;
   }
 
-  .FAQ_title {
+  .zglvk_of_faq_this {
     font-size: 42px;
   }
 
@@ -1126,26 +1125,25 @@ footer {
     background-size: cover, 15%, 15%;
   }
 
-  .footer_title {
+  .zglvk_of_ftr {
     font-size: 42px;
     text-align: left;
   }
 
-  .footer_content {
+  .why_connect {
     margin-bottom: 140px;
     padding-right: 85px;
   }
 
-  .footer_content_phone img,
-  .footer_content_mail img {
+  .connect_phone img,
+  .connect_mail img {
     margin-right: 20px;
   }
 
-  .footer_content_mail {
+  .connect_mail {
     margin-bottom: 105px;
   }
 
-  .footer_form {
+  .main_of_ftr {
     padding-left: 95px;
-  }
-
+	}
