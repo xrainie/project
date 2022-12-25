@@ -33,15 +33,15 @@ $(document).on("ready", function () {
 });
 
 $(document).ready(function () {
-  $(".FAQ_accordion .FAQ_qestion:first").addClass("active");
-  $(".FAQ_accordion .FAQ_answer:not(:first)").hide();
-  $(".FAQ_accordion .FAQ_qestion").click(function () {
+  $(".faq_asks .vprs_to_faq:first").addClass("active");
+  $(".faq_asks .vprs_to_faq_txt:not(:first)").hide();
+  $(".faq_asks .vprs_to_faq").click(function () {
     $(this)
-      .next(".FAQ_answer")
+      .next(".vprs_to_faq_txt")
       .slideToggle("fast")
-      .siblings(".FAQ_answer:visible")
+      .siblings(".vprs_to_faq_txt:visible")
       .slideUp("normal");
     $(this).toggleClass("active");
-    $(this).siblings(".FAQ_qestion").removeClass("active");
+    $(this).siblings(".vprs_to_faq").removeClass("active");
   });
 });
